@@ -5,9 +5,14 @@ function fizzbuzz() {
     
     //console.log('Welcome to FizzBuzz!');
 
-    // Print all number from 1 TO 100
+    // Print all numbers from 1 to 100 , print fizz instead if the number is a multiple of 3
     for (let i = 1; i < 101; i++) {
-        console.log(i);
+        if (i % 3 === 0){
+            console.log("Fizz");
+        } 
+        else{
+            console.log(i);
+        }
     }  
 }
 
